@@ -1116,18 +1116,18 @@ function generateRemark(index, port, protocol, fragType) {
     switch (index) {
         case 0:
         case 1:
-            remark = `⇢${protocol}${type} ⇢Ðoϻɑiͷ  ${index + 1} ⇢${port}`;
+            remark = `POORIA${protocol}${type} ⇢Ðoϻɑiͷ  ${index + 1} ⇢${port}`;
             break;
         case 2:
         case 3:
-            remark = `⇢${protocol}${type} ⇢IPV4 ${index - 1} ⇢${port}`;
+            remark = `POORIA${protocol}${type} ⇢IPV4 ${index - 1} ⇢${port}`;
             break;
         case 4:
         case 5:
-            remark = `⇢${protocol}${type} ⇢IPV6 ${index - 3} ⇢${port}`;
+            remark = `POORIA${protocol}${type} ⇢IPV6 ${index - 3} ⇢${port}`;
             break;
         default:
-            remark = `⇢${protocol}${type} ⇢CLEAN IP ${index - 5} ⇢${port}`;
+            remark = `POORIA${protocol}${type} ⇢CLEAN IP ${index - 5} ⇢${port}`;
             break;
     }
 
